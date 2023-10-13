@@ -1,0 +1,80 @@
+.container{
+  display: flex;
+  padding: 0px;
+  height: 1000px;
+}
+
+.mainpart{
+  padding-top: 100px;
+  flex: 7;
+  color: white;
+  background-color: rgb(71, 112, 71);
+}
+
+.banlist{
+  padding: 20px;
+  flex: 2;
+  color: black;
+  background-color: rgb(102, 227, 206);
+  border-color: rgb(132, 216, 21);
+  border-width: 20px;
+  bor
+}
+
+.generate-button {
+  background-color: rgb(102, 227, 206); 
+  border: none;
+  color: black; 
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 8px; 
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+.generate-button:hover {
+  background-color: #45a049; 
+  transform: scale(1.05); 
+}
+
+.generate-button:active {
+  background-color: #369f3b;
+  transform: scale(1);
+}
+
+.generate-button:focus {
+  outline: none; 
+  box-shadow: 0 0 5px 2px rgba(72,239,128,0.5); 
+}
+
+img {
+  max-height: 400px;
+  max-width: 400px;
+  margin-top: 20px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.attribute {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.attribute:hover {
+  background-color: #f5f5f5;
+}
+
+.attribute.banned {
+  color: red;
+  text-decoration: line-through;
+}
